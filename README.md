@@ -1,22 +1,22 @@
 <h1>🌐 Bynry Profile Dashboard</h1>
 
 <p>
-A modern <b>React-based Profile Management System</b> developed as part of 
-the <b>Bynry Frontend Case Study 2024</b>.  
-This project integrates <b>profile cards, admin CRUD, maps, and persistent storage</b> 
-to deliver a clean and interactive user directory.
+A modern <b>React-based Profile Management System</b> created for the 
+<b>Bynry Frontend Case Study 2024</b>.  
+The system allows viewing user profiles, map-based locations, and managing 
+profiles using a dedicated admin panel.
 </p>
 
 <hr>
 
 <h2>📸 Output Screenshots</h2>
 
-<p>Replace these links with your actual screenshots:</p>
+<p>Replace these with your actual images:</p>
 
 <img src="assets/home.png" width="800" />
 <br><br>
 
-<img src="assets/detail.png" width="800" />
+<img src="assets/details.png" width="800" />
 <br><br>
 
 <img src="assets/admin.png" width="800" />
@@ -28,12 +28,15 @@ to deliver a clean and interactive user directory.
 
 <h2>📄 Project Overview</h2>
 
+<p>
+A complete profile management dashboard with:
+</p>
+
 <ul>
-    <li>User profile listing with modern UI</li>
-    <li>Interactive map summary using Leaflet</li>
-    <li>Profile detail page with complete information</li>
-    <li>Admin dashboard (Add, Edit, Delete)</li>
-    <li>Permanent storage using Zustand Persist</li>
+    <li>Glassmorphic UI for modern appearance</li>
+    <li>Leaflet maps for accurate location display</li>
+    <li>Admin panel with full CRUD</li>
+    <li>Persistent data using Zustand + LocalStorage</li>
 </ul>
 
 <hr>
@@ -41,11 +44,11 @@ to deliver a clean and interactive user directory.
 <h2>📌 Project Objectives</h2>
 
 <ul>
-    <li>Display multiple user profiles beautifully</li>
-    <li>Show the exact location on an interactive map</li>
-    <li>Allow admin to fully manage profiles (CRUD)</li>
-    <li>Ensure persistent data across refreshes</li>
-    <li>Use modern UI with CSS modules & glass styles</li>
+    <li>View professional user profiles</li>
+    <li>Display map-based summaries</li>
+    <li>Allow Add/Edit/Delete operations</li>
+    <li>Maintain a clean and responsive UI</li>
+    <li>Ensure persistent storage across sessions</li>
 </ul>
 
 <hr>
@@ -53,12 +56,13 @@ to deliver a clean and interactive user directory.
 <h2>🛠️ Tools & Technologies</h2>
 
 <ul>
-    <li><b>Frontend:</b> React + Vite</li>
-    <li><b>State Management:</b> Zustand (with persist)</li>
+    <li><b>Framework:</b> React + Vite</li>
+    <li><b>State Management:</b> Zustand</li>
+    <li><b>Persistent Storage:</b> Zustand Persist Middleware</li>
     <li><b>Routing:</b> React Router DOM</li>
     <li><b>Maps:</b> Leaflet + React Leaflet</li>
-    <li><b>Styling:</b> CSS Modules + custom UI</li>
-    <li><b>Build Tools:</b> Vite & ESLint</li>
+    <li><b>Styling:</b> CSS Modules + Custom UI</li>
+    <li><b>Build Tool:</b> Vite</li>
 </ul>
 
 <hr>
@@ -69,7 +73,7 @@ to deliver a clean and interactive user directory.
 bynry-profile-dashboard/
 │── src/
 │   ├── assets/               # Images
-│   ├── components/
+│   ├── components/           # Reusable components
 │   │     ├── ProfileCard.jsx
 │   │     ├── MapView.jsx
 │   │     ├── ProfileCard.module.css
@@ -77,6 +81,7 @@ bynry-profile-dashboard/
 │   │     ├── Home.jsx
 │   │     ├── Detail.jsx
 │   │     ├── Admin.jsx
+│   │     ├── Admin.module.css
 │   ├── data/
 │   │     └── seedProfiles.js
 │   ├── store/
@@ -95,32 +100,32 @@ bynry-profile-dashboard/
     <li><b>Profile Rendering</b>
         <ul>
             <li>Modern glass-style cards</li>
-            <li>Displays photo, name, title, location</li>
+            <li>Displays photo, name, title, and location</li>
             <li>Buttons for Summary and Details</li>
         </ul>
     </li>
 
     <li><b>Map Integration</b>
         <ul>
-            <li>Interactive map built with React Leaflet</li>
-            <li>Marker shows exact user location</li>
-            <li>Zoom, drag and popup support</li>
+            <li>Implemented with React Leaflet</li>
+            <li>Shows marker with popup text</li>
+            <li>Supports zooming and dragging</li>
         </ul>
     </li>
 
     <li><b>Admin CRUD</b>
         <ul>
-            <li>Add new profiles</li>
-            <li>Edit existing profiles</li>
-            <li>Delete profiles</li>
-            <li>Instant UI updates with Zustand</li>
+            <li>Form-based Add operation</li>
+            <li>Edit functionality with pre-filled data</li>
+            <li>Instant Delete behavior</li>
+            <li>State updated using Zustand</li>
         </ul>
     </li>
 
     <li><b>Persistent Storage</b>
         <ul>
-            <li>Stored in LocalStorage</li>
-            <li>Hydration fixed using Zustand middleware</li>
+            <li>LocalStorage is used to save profile data</li>
+            <li>Hydration logic ensures no empty UI states</li>
             <li>No backend required</li>
         </ul>
     </li>
@@ -131,19 +136,19 @@ bynry-profile-dashboard/
 <h2>🚀 How to Run</h2>
 
 <ol>
-    <li>Clone the repository  
+    <li>Clone this repository:
         <pre>git clone https://github.com/Abhishekkhanai07/Bynry-profile-dashboard.git</pre>
     </li>
 
-    <li>Install dependencies  
+    <li>Install dependencies:
         <pre>npm install</pre>
     </li>
 
-    <li>Start development server  
+    <li>Start development server:
         <pre>npm run dev</pre>
     </li>
 
-    <li>Build for production  
+    <li>Build for production:
         <pre>npm run build</pre>
     </li>
 </ol>
@@ -151,8 +156,7 @@ bynry-profile-dashboard/
 <hr>
 
 <h2>🗑 Reset Local Storage</h2>
-
-<p>Run in browser console:</p>
+<p>To clear all saved profiles:</p>
 
 <pre>localStorage.removeItem('bynry-profiles')</pre>
 
@@ -166,6 +170,3 @@ Frontend Developer<br>
 GitHub: 
 <a href="https://github.com/Abhishekkhanai07">Abhishekkhanai07</a>
 </p>
-
-</body>
-</html>
