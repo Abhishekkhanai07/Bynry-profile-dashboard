@@ -13,17 +13,14 @@ profiles using a dedicated admin panel.
 
 <p>Replace these with your actual images:</p>
 
-<img src="assets/home.png" width="800" />
+<img src="https://github.com/Abhishekkhanai07/Bynry-profile-dashboard/blob/8a7319bc99ea595382e90fbbfd32ade1b4b5794e/Output/HomePage.png" width="800" />
 <br><br>
 
-<img src="assets/details.png" width="800" />
+<img src="https://github.com/Abhishekkhanai07/Bynry-profile-dashboard/blob/8a7319bc99ea595382e90fbbfd32ade1b4b5794e/Output/DetailsPage.png" width="800" />
 <br><br>
 
-<img src="assets/admin.png" width="800" />
+<img src="https://github.com/Abhishekkhanai07/Bynry-profile-dashboard/blob/8a7319bc99ea595382e90fbbfd32ade1b4b5794e/Output/Adminpage.png" width="800" />
 <br><br>
-
-<img src="assets/map.png" width="800" />
-
 <hr>
 
 <h2>📄 Project Overview</h2>
