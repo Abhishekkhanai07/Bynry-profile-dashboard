@@ -1,0 +1,116 @@
+.card {
+  background: rgba(255, 255, 255, 0.06);
+  border: 1px solid rgba(255, 255, 255, 0.08);
+  border-radius: 18px;
+  padding: 16px;
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.3);
+  transition: all 0.3s ease;
+  backdrop-filter: blur(12px);
+  text-align: center;
+  overflow: hidden;
+}
+
+.card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 8px 30px rgba(96, 165, 250, 0.4);
+}
+
+
+.image {
+  width: 180px;
+  height: 180px;
+  border-radius: 50%;      
+  object-fit: cover;
+  margin: 0 auto 12px auto; 
+  border: 3px solid rgba(255,255,255,0.2);
+  box-shadow: 0 0 15px rgba(96, 165, 250, 0.3);
+  transition: transform 0.3s ease;
+}
+
+
+.image:hover {
+  transform: scale(1.05);
+}
+
+/* Text */
+.name {
+  font-size: 1.1rem;
+  font-weight: 600;
+  margin: 8px 0 4px 0;
+}
+
+.title {
+  color: #94a3b8;
+  font-size: 0.9rem;
+  margin: 0;
+}
+
+.location {
+  color: #94a3b8;
+  font-size: 0.9rem;
+  margin-top: 4px;
+}
+
+
+.buttons {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  margin-top: 12px;
+  flex-wrap: wrap;
+}
+
+
+.button {
+  background: #60a5fa;
+  color: white;
+  font-weight: 600;
+  border: none;
+  border-radius: 8px;
+  padding: 8px 14px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  text-decoration: none;
+}
+
+.button:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 0 10px rgba(96, 165, 250, 0.6);
+}
+
+.secondary {
+  background: transparent;
+  border: 1px solid #60a5fa;
+  color: #60a5fa;
+}
+
+.secondary:hover {
+  background: #60a5fa;
+  color: white;
+}
+
+
+.coords {
+  margin-top: 10px;
+  font-size: 0.85rem;
+  color: #9ca3af;
+  display: flex;
+  justify-content: center;
+  gap: 8px;
+  align-items: center;
+  background: rgba(255, 255, 255, 0.04);
+  border-radius: 8px;
+  padding: 6px 8px;
+}
+
+.coords span {
+  display: flex;
+  align-items: center;
+  gap: 4px;
+}
+
+.coords svg {
+  width: 14px;
+  height: 14px;
+  opacity: 0.8;
+}
