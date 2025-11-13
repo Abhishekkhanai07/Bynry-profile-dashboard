@@ -97,41 +97,36 @@ bynry-profile-dashboard/
 <h2>⚙️ Methodology</h2>
 
 <ol>
-    <li><b>Profile Rendering</b>
-        <ul>
-            <li>Modern glass-style cards</li>
-            <li>Displays photo, name, title, and location</li>
-            <li>Buttons for Summary and Details</li>
-        </ul>
-    </li>
+<li><b>Profile Rendering</b></li>
+<ul>
+<li>Modern glass-style cards</li>
+<li>Displays photo, name, title, and location</li>
+<li>Buttons for Summary and Details</li>
+</ul>
 
-    <li><b>Map Integration</b>
-        <ul>
-            <li>Implemented with React Leaflet</li>
-            <li>Shows marker with popup text</li>
-            <li>Supports zooming and dragging</li>
-        </ul>
-    </li>
+<li><b>Map Integration</b></li>
+<ul>
+<li>Implemented with React Leaflet</li>
+<li>Shows marker with popup text</li>
+<li>Supports zooming and dragging</li>
+</ul>
 
-    <li><b>Admin CRUD</b>
-        <ul>
-            <li>Form-based Add operation</li>
-            <li>Edit functionality with pre-filled data</li>
-            <li>Instant Delete behavior</li>
-            <li>State updated using Zustand</li>
-        </ul>
-    </li>
+<li><b>Admin CRUD</b></li>
+<ul>
+<li>Form-based Add operation</li>
+<li>Edit functionality with pre-filled data</li>
+<li>Instant Delete behavior</li>
+<li>State updated using Zustand</li>
+</ul>
 
-    <li><b>Persistent Storage</b>
-        <ul>
-            <li>LocalStorage is used to save profile data</li>
-            <li>Hydration logic ensures no empty UI states</li>
-            <li>No backend required</li>
-        </ul>
-    </li>
+<li><b>Persistent Storage</b></li>
+<ul>
+<li>LocalStorage is used to save profile data</li>
+<li>Hydration logic ensures no empty UI states</li>
+<li>No backend required</li>
+</ul>
 </ol>
 
-<hr>
 
 <h2>🚀 How to Run</h2>
 
