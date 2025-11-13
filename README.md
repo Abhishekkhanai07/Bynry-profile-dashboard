@@ -127,28 +127,31 @@ bynry-profile-dashboard/
 </ul>
 </ol>
 
-
 <h2>🚀 How to Run</h2>
 
 <ol>
-    <li>Clone this repository:
-        <pre>git clone https://github.com/Abhishekkhanai07/Bynry-profile-dashboard.git</pre>
-    </li>
 
-    <li>Install dependencies:
-        <pre>npm install</pre>
-    </li>
+<li><b>Clone the Repository</b></li>
+<ul>
+<li>git clone https://github.com/Abhishekkhanai07/Bynry-profile-dashboard.git</li>
+</ul>
 
-    <li>Start development server:
-        <pre>npm run dev</pre>
-    </li>
+<li><b>Install Dependencies</b></li>
+<ul>
+<li>npm install</li>
+</ul>
 
-    <li>Build for production:
-        <pre>npm run build</pre>
-    </li>
+<li><b>Start Development Server</b></li>
+<ul>
+<li>npm run dev</li>
+</ul>
+
+<li><b>Build for Production</b></li>
+<ul>
+<li>npm run build</li>
+</ul>
+
 </ol>
-
-<hr>
 
 <h2>🗑 Reset Local Storage</h2>
 <p>To clear all saved profiles:</p>
